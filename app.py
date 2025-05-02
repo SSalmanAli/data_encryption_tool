@@ -32,7 +32,7 @@ def show_home():
     2. **Retrieve** with the same passkey
     3. 3 failed attempts will require reauthorization
     """)
-
+    st.text("Made By Syed Salman Ali")
 def show_store():
     st.header("📥 Store Data")
     data = st.text_area("Enter your secret data:", height=150)
